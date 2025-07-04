@@ -4,6 +4,6 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <p>Nghe bai trinh chua</p>
+  <p>Nghe bai trinh chua?</p>
 );
 
