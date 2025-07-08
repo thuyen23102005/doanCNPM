@@ -1,0 +1,161 @@
+/* Home.css */
+
+.home-container {
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  color: turquoise;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.register {
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.login {
+  background-color: turquoise;
+  color: white;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0ffff;
+  padding: 10px;
+}
+
+.menu-bar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.search-input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: turquoise;
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+.main-section {
+  padding: 1rem;
+  text-align: center;
+}
+
+.banner-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.deal-section, .new-products {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.deal-card  {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.new-card {
+  width: 450px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.deal-card img, .new-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.see-all {
+  margin-top: 1rem;
+  padding: 10px 15px;
+  border: 2px solid #00cc99;
+  color: #00cc99;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.new-product-section h3 {
+  color: #00cc66;
+}
+
+.footer {
+  background-color: #00d6d6;
+  color: black;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-columns .column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-columns a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-info {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  text-align: center;
+}
